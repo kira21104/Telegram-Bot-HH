@@ -24,7 +24,7 @@ You can install the required dependencies using `pip`:
 
 ```bash
 pip install -r requirements.txt
-
+```
 
 ## Bot setup
 
