@@ -16,7 +16,7 @@ from collections import Counter
 import re
 
 # Токен Telegram-бота
-TOKEN = "7653647135:AAH2PSRO_6eE3yyrR3opc17PuMybs59KiuE"
+TOKEN = ""
 
 # Доступные регионы и уровни опыта
 regions = {"Москва": 1, "Санкт-Петербург": 2}
