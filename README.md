@@ -6,6 +6,8 @@ This project is a Telegram bot built with Python that allows users to search for
 
 - **Interactive interface**: Users can select a region (Moscow or St. Petersburg), an experience level (Junior, Middle, Senior), and a job category (Data Analyst, Data Scientist, Data Engineer).
 - **Job Search**: The bot scrapes vacancy data from hh.ru based on the selected filters and provides links to the job listings.
+- **Salary Statistics**: The bot calculates and displays the average salary for the selected job category and experience level.
+- **Top Companies**: The bot provides a list of the top hiring companies for the selected criteria.
 - **Easy to Use**: A simple, user-friendly Telegram bot interface.
 
 ## Installation
@@ -50,7 +52,9 @@ Once the bot is launched, you can interact with it via Telegram. The bot will gu
 
 ### Example Workflow
 1. The user starts the bot using /start.
-2. The bot asks the user to select a region.
-3. The user selects a region and the bot asks for an experience level.
-4. After selecting your experience level, the bot prompts you for the job category.
-5. The bot scans hh.ru and sends links to relevant job postings.
+2. The bot prompts the user to select a region.
+3. After selecting a region, the bot asks for the experience level.
+4. Once the experience level is chosen, the bot prompts the user to select a job category.
+5. The bot scrapes hh.ru and sends links to relevant job postings.
+6. The bot calculates and displays the average salary for the selected category.
+7. The bot provides a list of the top hiring companies for the chosen criteria..
